@@ -1,5 +1,9 @@
 # QUICK BRIEF APP
 
+
+![LauncherApp](screenshots/LauncherApp.png) ![HomeScreen](screenshots/HomeScreen.png) ![SearchView](screenshots/SearchView.png) ![ViewFullNews](screenshots/ViewFullNews.png)
+
+
 ## Opis
 Projekt Quick Brief to mobilna aplikacja służąca do przeglądania najnowszych artykułów prasowych z różnych kategorii takich jak wiadomości światowe, sport, technologia i zdrowie. Aplikacja korzysta z API News do pobierania aktualnych danych prasowych i prezentowania ich w przyjaznym interfejsie użytkownika.
 
