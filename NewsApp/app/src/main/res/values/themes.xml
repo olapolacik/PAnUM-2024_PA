@@ -9,6 +9,9 @@
 
         <item name="android:statusBarColor">@color/my_primary</item>
 
+        <item name="android:windowBackground">@color/light_gray_background</item> <!-- Set the background color -->
+
+
     </style>
 
     <style name="Theme.NewsApp" parent="Base.Theme.NewsApp" />

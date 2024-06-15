@@ -5,4 +5,7 @@
 
     <color name="my_primary">#C34A36</color>
     <color name="my_secondary">#C34A36</color>
+
+    <color name="light_gray_background">#FFFAFA</color>
+
 </resources>
