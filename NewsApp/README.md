@@ -1,7 +1,7 @@
 # QUICK BRIEF APP
 
 
-![LauncherApp](screenshots/LauncherApp.png) ![HomeScreen](screenshots/HomeScreen.png) ![SearchView](screenshots/SearchView.png) ![ViewFullNews](screenshots/ViewFullNews.png)
+![LauncherApp](screenshots/Launches.png) ![HomeScreen](screenshots/Home.png) ![SearchView](screenshots/FullNews.png) ![ViewFullNews](screenshots/Search.png)
 
 
 ## Opis
