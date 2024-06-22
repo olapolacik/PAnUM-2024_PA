@@ -1,0 +1,36 @@
+<?xml version="1.0" encoding="utf-8"?>
+<LinearLayout xmlns:android="http://schemas.android.com/apk/res/android"
+    android:layout_width="match_parent"
+    android:layout_height="match_parent"
+    android:orientation="vertical"
+    android:padding="16dp">
+
+    <TextView
+        android:id="@+id/tvLocationName"
+        android:layout_width="match_parent"
+        android:layout_height="wrap_content"
+        android:text="Nazwa lokalu: CoffeeShop"
+        android:textSize="18sp" />
+
+    <TextView
+        android:id="@+id/tvLocationAddress"
+        android:layout_width="match_parent"
+        android:layout_height="wrap_content"
+        android:text="Adres: ul.Kawia 15, Częstochowa "
+        android:textSize="18sp" />
+
+    <TextView
+        android:id="@+id/tvLocationHours"
+        android:layout_width="match_parent"
+        android:layout_height="wrap_content"
+        android:text="Godziny otwarcia: pn-pt: 10-22, sob: 10-19:00"
+        android:textSize="18sp" />
+
+    <ImageView
+        android:id="@+id/imgLocationMap"
+        android:layout_width="match_parent"
+        android:layout_height="200dp"
+        android:scaleType="centerInside"
+        android:src="@drawable/ic_map_placeholder" />
+
+</LinearLayout>
