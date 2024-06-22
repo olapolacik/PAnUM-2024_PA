@@ -7,7 +7,7 @@ import android.database.sqlite.SQLiteOpenHelper;
 public class DBHelper extends SQLiteOpenHelper {
 
     private static final String DATABASE_NAME = "drinksnack.db";
-    private static final int DATABASE_VERSION = 2;
+    private static final int DATABASE_VERSION = 3;
 
     public DBHelper(Context context) {
         super(context, DATABASE_NAME, null, DATABASE_VERSION);
@@ -22,8 +22,9 @@ public class DBHelper extends SQLiteOpenHelper {
         db.execSQL("INSERT INTO products (name, type, price) VALUES ('Espresso', 'drink', 10.0)");
         db.execSQL("INSERT INTO products (name, type, price) VALUES ('Latte', 'drink', 12.0)");
         db.execSQL("INSERT INTO products (name, type, price) VALUES ('Cappuccino', 'drink', 11.0)");
-        db.execSQL("INSERT INTO products (name, type, price) VALUES ('Chipsy', 'snack', 3.0)");
+        db.execSQL("INSERT INTO products (name, type, price) VALUES ('Sernik', 'snack', 14.0)");
         db.execSQL("INSERT INTO products (name, type, price) VALUES ('Orzeszki', 'snack', 2.5)");
+        db.execSQL("INSERT INTO products (name, type, price) VALUES ('Szarlotka', 'snack', 12.5)");
         db.execSQL("INSERT INTO locations (name, address, hours) VALUES ('Lokal 1', 'ul. Kawia 10, Częstochowa ', 'pon-pt: 9:00 - 18:00')");
     }
 
