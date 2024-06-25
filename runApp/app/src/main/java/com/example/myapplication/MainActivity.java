@@ -51,7 +51,7 @@ public class MainActivity extends AppCompatActivity {
         String halfMarathonTime = calculateTime(pace, halfMarathonDistance);
 
         StringBuilder results = new StringBuilder();
-        results.append("Prędkość: ").append(String.format("%.2f", speed)).append(" km/h\n");
+        results.append("Tempo: ").append(String.format("%.2f", speed)).append(" km/h\n");
         results.append("Maraton: ").append(marathonTime).append("\n");
         results.append("Półmaraton: ").append(halfMarathonTime).append("\n");
 
