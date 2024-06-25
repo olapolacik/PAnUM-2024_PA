@@ -1,0 +1,105 @@
+<?xml version="1.0" encoding="utf-8"?>
+<!-- activity_roman.xml -->
+<LinearLayout xmlns:android="http://schemas.android.com/apk/res/android"
+    xmlns:tools="http://schemas.android.com/tools"
+    android:layout_width="match_parent"
+    android:layout_height="match_parent"
+    android:orientation="vertical"
+    android:gravity="center"
+    tools:context=".RomanActivity">
+
+    <EditText
+        android:id="@+id/roman_number_edittext"
+        android:layout_width="wrap_content"
+        android:layout_height="wrap_content"
+        android:inputType="none"
+        android:enabled="false"
+        android:text=""
+        android:textSize="24sp"
+        android:gravity="center"
+        android:focusable="false"
+        android:focusableInTouchMode="false"
+        android:layout_marginBottom="16dp"/>
+
+    <EditText
+        android:id="@+id/arabic_number_edittext"
+        android:layout_width="wrap_content"
+        android:layout_height="wrap_content"
+        android:inputType="none"
+        android:enabled="false"
+        android:text="0"
+        android:textSize="24sp"
+        android:gravity="center"
+        android:focusable="false"
+        android:focusableInTouchMode="false"
+        android:layout_marginBottom="16dp"/>
+
+    <GridLayout
+        android:layout_width="match_parent"
+        android:layout_height="wrap_content"
+        android:columnCount="3"
+        android:rowCount="4"
+        android:layout_marginBottom="16dp"
+        android:alignmentMode="alignMargins"
+        android:columnOrderPreserved="false"
+        android:useDefaultMargins="true">
+
+        <!-- Przyciski z cyframi rzymskimi -->
+        <Button
+            android:id="@+id/button_I"
+            android:layout_width="wrap_content"
+            android:layout_height="wrap_content"
+            android:text="I"
+            android:onClick="onRomanButtonClick" />
+
+        <Button
+            android:id="@+id/button_V"
+            android:layout_width="wrap_content"
+            android:layout_height="wrap_content"
+            android:text="V"
+            android:onClick="onRomanButtonClick" />
+
+        <Button
+            android:id="@+id/button_X"
+            android:layout_width="wrap_content"
+            android:layout_height="wrap_content"
+            android:text="X"
+            android:onClick="onRomanButtonClick" />
+
+        <Button
+            android:id="@+id/button_L"
+            android:layout_width="wrap_content"
+            android:layout_height="wrap_content"
+            android:text="L"
+            android:onClick="onRomanButtonClick" />
+
+        <Button
+            android:id="@+id/button_C"
+            android:layout_width="wrap_content"
+            android:layout_height="wrap_content"
+            android:text="C"
+            android:onClick="onRomanButtonClick" />
+
+        <Button
+            android:id="@+id/button_D"
+            android:layout_width="wrap_content"
+            android:layout_height="wrap_content"
+            android:text="D"
+            android:onClick="onRomanButtonClick" />
+
+        <Button
+            android:id="@+id/button_M"
+            android:layout_width="wrap_content"
+            android:layout_height="wrap_content"
+            android:text="M"
+            android:onClick="onRomanButtonClick" />
+
+        <Button
+            android:id="@+id/button_backspace"
+            android:layout_width="wrap_content"
+            android:layout_height="wrap_content"
+            android:text="⌫"
+            android:onClick="onBackspaceButtonClick" />
+    </GridLayout>
+
+</LinearLayout>
